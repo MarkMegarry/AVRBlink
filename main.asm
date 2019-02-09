@@ -10,10 +10,10 @@
 rjmp start
 
 start:
-	;Store B11111111 in r16, then write to PORTD \t\n\
+	;Store B11111111 in r16, then write to PORTD
 	ldi r16, 0b11111111 
 	out DDRD, r16
-	;Load r16 with B00000000 and write to PORTD \t\n\
+	;Load r16 with B00000000 and write to PORTD 
 
 	Toggle:
 	RCALL Delay
