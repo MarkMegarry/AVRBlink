@@ -1,5 +1,5 @@
 ;
-; FirstTryIdiot.asm
+; AVRBlink.asm
 ;
 ; Created: 08/02/2019 22:08:45
 ; Author : Mark
